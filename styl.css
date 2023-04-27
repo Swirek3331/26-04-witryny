@@ -8,3 +8,30 @@
     --grey: #727272;
     --dark: #212121;
 }
+
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+}
+
+#kontener {
+    background-color: var(--oragne1);
+}
+
+header {
+    background-color: var(--cyan1);
+}
+
+main {
+    background-color: var(--cream);
+}
+
+footer {
+    background-color: var(--grey);
+    background-image: url(./gnome.png);
+    background-size: contain;
+}

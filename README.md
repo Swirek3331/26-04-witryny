@@ -16,3 +16,5 @@ Układy:
 Menu_poziom:
 
 ![menu_poziom](./4.menu_poziom.png)
+
+***Pierdolę tą szarą przestrzeń, na razię***
