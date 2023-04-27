@@ -1,0 +1,23 @@
+#kontener {
+    display: grid;
+    grid-template-areas: 
+    "Header Header Header"
+    "Nav Main Main"
+    "Footer Footer Footer";
+}
+
+header {
+    grid-area: Header;
+}
+
+nav {
+    grid-area: Nav;
+}
+
+main {
+    grid-area: Main;
+}
+
+footer {
+    grid-area: Footer;
+}
