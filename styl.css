@@ -26,6 +26,33 @@ header {
     background-color: var(--cyan1);
 }
 
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    background-color: var(--oragne2);
+    border-bottom: 1px solid var(--cream); 
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
 main {
     background-color: var(--cream);
 }
@@ -33,5 +60,5 @@ main {
 footer {
     background-color: var(--grey);
     background-image: url(./gnome.png);
-    background-size: contain;
+    background-size: contain
 }
