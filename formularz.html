@@ -4,6 +4,7 @@
 		<title>Formularz</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="styl.css" type="text/css" />
+		<link rel="stylesheet" href="grid.css" type="text/css" />
 	</head>
 	<body>
 		<div id="kontener">
@@ -20,6 +21,42 @@
 			</nav>
         <main>
             <h2>Formularz</h2>
+
+			<form action="" method="post">
+				<div>
+					<label for="name">Imię:</label>
+					<input type="text" name="name" id="name">
+				</div>
+				<div>
+					<label for="birthdate">Data urodzin:</label>
+					<input type="date" name="birthdate" id="birthdate">
+				</div>
+				<div>
+					<label for="color">Wybierz ulubiony kolor</label>
+					<input type="color" name="color" id="color">
+				</div>
+				<div>
+					<label for="email">e-mail:</label>
+					<input type="email" name="email" id="email">
+				</div>
+				<div>
+					<p>Jakiego antywirusa używasz w domu?</p>
+					<input type="radio" name="antivirus" id="antivirus1" value="avast"/>					
+					<label for="antivirus1">Avast Free Antivirus</label>
+
+					<input type="radio" name="antivirus" id="antivirus2" value="bitedefender"/>
+					<label for="antivirus2">Bitedefender Total Security</label>
+
+					<input type="radio" name="antivirus" id="antivirus3" value="eset"/>
+					<label for="antivirus3">Eset Internet Security</label>
+
+					<input type="radio" name="antivirus" id="antivirus4" value="kaspersky"/>
+					<label for="antivirus4">Kaspersky Internet Security</label>
+
+					<input type="radio" name="antivirus" id="antivirus5" value="other"/>
+					<label for="antivirus5">Inny</label>
+				</div>
+			</form>
             
         </main>
         <footer>Copyright &copy; 2022
