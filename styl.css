@@ -10,7 +10,7 @@
     --dark: #212121;
 }
 
-* {
+* { 
     box-sizing: border-box;
     font-family: Arial;
 }
@@ -26,6 +26,11 @@ body {
 
 header {
     background-color: var(--cyan3);
+    color: white;
+    padding-left: 10rem;
+    background-image: url(./logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 nav ul {
