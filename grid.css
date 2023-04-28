@@ -1,9 +1,10 @@
 #kontener {
     display: grid;
     grid-template-areas: 
-    "Header Header Header"
-    "Nav Main Main"
-    "Footer Footer Footer";
+    "Header Header"
+    "Nav Main"
+    "Footer Footer";
+    grid-template-columns: 1fr 2fr;
 }
 
 header {
