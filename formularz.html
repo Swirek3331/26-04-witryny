@@ -39,23 +39,72 @@
 					<label for="email">e-mail:</label>
 					<input type="email" name="email" id="email">
 				</div>
-				<div>
+				
+				<div id="radio">
 					<p>Jakiego antywirusa używasz w domu?</p>
-					<input type="radio" name="antivirus" id="antivirus1" value="avast"/>					
-					<label for="antivirus1">Avast Free Antivirus</label>
+					<div>
+						<input type="radio" name="antivirus" id="antivirus1" value="avast"/>					
+						<label for="antivirus1">Avast Free Antivirus</label>
+					</div>
 
-					<input type="radio" name="antivirus" id="antivirus2" value="bitedefender"/>
-					<label for="antivirus2">Bitedefender Total Security</label>
+					<div>
+						<input type="radio" name="antivirus" id="antivirus2" value="bitedefender"/>
+						<label for="antivirus2">Bitedefender Total Security</label>
+					</div>
 
-					<input type="radio" name="antivirus" id="antivirus3" value="eset"/>
-					<label for="antivirus3">Eset Internet Security</label>
+					<div>
+						<input type="radio" name="antivirus" id="antivirus3" value="eset"/>
+						<label for="antivirus3">Eset Internet Security</label>
+					</div>
 
-					<input type="radio" name="antivirus" id="antivirus4" value="kaspersky"/>
-					<label for="antivirus4">Kaspersky Internet Security</label>
+					<div>
+						<input type="radio" name="antivirus" id="antivirus4" value="kaspersky"/>
+						<label for="antivirus4">Kaspersky Internet Security</label>
+					</div>
 
-					<input type="radio" name="antivirus" id="antivirus5" value="other"/>
-					<label for="antivirus5">Inny</label>
+					<dvi>
+						<input type="radio" name="antivirus" id="antivirus5" value="other"/>
+						<label for="antivirus5">Inny</label>
+					</dvi>
 				</div>
+
+				<div>
+					<label for="passwordMenager">Czy używasz menadżera haseł?</label>
+					<select name="passwordMenager" id="passwordMenager">
+						<option value="no">Nie</option>
+						<option value="yes">Tak</option>
+					</select>
+				</div>
+
+				<fieldset>
+					<legend>Menedżery haseł</legend>
+					<div id="checkBoxex">
+						<div>
+							<input type="checkbox" name="passwordMenager1" id="passwordMenager1" value="passwordMenagers"/>
+							<label for="passwordMenager1">Dashlane</label>
+						</div>
+
+						<div>
+							<input type="checkbox" name="passwordMenager2" id="passwordMenager2" value="passwordMenagers"/>
+							<label for="passwordMenager2">1Password</label>
+						</div>
+
+						<div>
+							<input type="checkbox" name="passwordMenager3" id="passwordMenager3" value="passwordMenagers"/>
+							<label for="passwordMenager3">RoboForm</label>
+						</div>
+
+						<div>
+							<input type="checkbox" name="passwordMenager4" id="passwordMenager4" value="passwordMenagers"/>
+							<label for="passwordMenager4">Keeper</label>
+						</div>
+
+						<div>
+							<input type="checkbox" name="passwordMenager5" id="passwordMenager5" value="passwordMenagers"/>
+							<label for="passwordMenager5">Inny</label>
+						</div>
+					</div>
+				</fieldset>
 			</form>
             
         </main>
