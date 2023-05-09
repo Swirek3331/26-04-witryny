@@ -90,13 +90,21 @@ h2 {
         margin-bottom: 0.5rem;
     }
 
-    form div#radio p {
+    form div p {
         margin-left: 1.5rem;
     }
 
     form div#radio div {
         margin-bottom: 0.75rem;
     }
+
+    form div#pasword {
+        margin-top: 1rem;
+        width: 10rem;
+        margin-right: auto;
+    }
+
+    
 
 footer {
     background-color: var(--grey);
