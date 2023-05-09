@@ -5,6 +5,9 @@
     "Nav Main"
     "Footer Footer";
     grid-template-columns: 1fr 2fr;
+    /* 
+    Może Anomalia będzie zadowolony z tego, że robie template-
+    */
 }
 
 header {
