@@ -141,6 +141,11 @@ h2 {
         margin-left: 20%;
     }
 
+    form select#language {
+        width: 20%;
+        margin-left: 15%;
+    }
+
 footer {
     background-color: var(--grey);
     background-image: url(./gnome.png);
