@@ -90,7 +90,13 @@ h2 {
         margin-bottom: 0.5rem;
     }
 
+    form div#radio p {
+        margin-left: 1.5rem;
+    }
 
+    form div#radio div {
+        margin-bottom: 0.75rem;
+    }
 
 footer {
     background-color: var(--grey);
