@@ -146,6 +146,10 @@ h2 {
         margin-left: 15%;
     }
 
+    form div#buttons input {
+        border-radius: 30px;
+    }
+
 footer {
     background-color: var(--grey);
     background-image: url(./gnome.png);
