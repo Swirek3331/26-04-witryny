@@ -160,6 +160,7 @@ h2, h3 {
 
     section p {
         text-align: justify;
+        padding-inline: 2rem;
     }
 
 
