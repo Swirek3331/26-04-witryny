@@ -18,12 +18,13 @@
 
 body {
     margin: 0;
+    background-color: var(--dark);
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: var(--cyan2);
+    background-color: var(--cyan1);
 }
 
 div#gora2 {
@@ -67,11 +68,11 @@ nav a:hover {
 }
 
 main {
-    display: grid;
-    grid-template-areas:
-    "block1 block1 block3"
-    "block2 block2 block3"
-    "block2 block2 block3";
+    display: flex;
+}
+
+main div :not(div#blok) {
+    padding: 1rem;
 }
 
 div#blok1 {
@@ -86,7 +87,16 @@ div#blok2 {
 
 div#blok3 {
     grid-area: block3;
-    background-color: var(--cyan3);
+    background-color: var(--cyan2);
+    padding: 1rem;
+    /*
+     Teoretycznie powinine to normlanie odziedziczyć, ale nie działa 
+     Firefox sugeruję jakieś przepełnienie lecz nic u mnie w kodzie o tym niema.   
+    */
+}
+
+h2 {
+    color: var(--grey);
 }
 
 footer {
