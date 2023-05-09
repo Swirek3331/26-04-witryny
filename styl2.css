@@ -1,0 +1,98 @@
+:root {
+    --oragne1: #f57c00;
+    --oragne2: #ff9800;
+    --orange3: #ff8800;
+    --cream: #ffe0b2;
+    --cyan1: #00BCD4;
+    --cyan2: #4db6ac;
+    --cyan3: #005F73;
+    --grey: #727272;
+    --dark: #212121;
+}
+
+* { 
+    box-sizing: border-box;
+    font-family: Arial;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cyan2);
+}
+
+div#gora2 {
+    background-color: var(--cyan3);
+    color: white;
+    padding-inline: 10rem;
+}
+
+nav {
+    background-color: var(--orange3);
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+nav li {
+    background-color: var(--oragne2);
+    border-bottom: 1px solid var(--cream); 
+    border-right: 1px solid var(--cream); 
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+    "block1 block1 block3"
+    "block2 block2 block3"
+    "block2 block2 block3";
+}
+
+div#blok1 {
+    grid-area: block1;
+    background-color: var(--oragne1);
+}
+
+div#blok2 {
+    grid-area: block2;
+    background-color: #BDB76B;
+}
+
+div#blok3 {
+    grid-area: block3;
+    background-color: var(--cyan3);
+}
+
+footer {
+    background-color: var(--grey);
+    background-image: url(./gnome.png);
+    background-size: contain;
+    text-align: center;
+    padding: 1rem;
+}
